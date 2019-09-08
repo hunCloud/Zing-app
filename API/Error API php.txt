@@ -1,0 +1,26 @@
+danhsachbaihat.php
+
+
+Notice: Undefined variable: query in /storage/ssd1/841/10586841/public_html/Server/danhsachbaihat.php on line 42
+
+Warning: mysqli_query(): Empty query in /storage/ssd1/841/10586841/public_html/Server/danhsachbaihat.php on line 42
+
+Warning: mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /storage/ssd1/841/10586841/public_html/Server/danhsachbaihat.php on line 43
+[]
+
+
+_________________________________________________
+theloaitheochude.php
+
+Notice: Undefined index: idchude in /storage/ssd1/841/10586841/public_html/Server/theloaitheochude.php on line 14
+[]
+
+_________________________________________________________________
+
+
+updateluotthich.php
+
+Notice: Undefined index: luotthich in /storage/ssd1/841/10586841/public_html/Server/updateluotthich.php on line 3
+
+Notice: Undefined index: idbaihat in /storage/ssd1/841/10586841/public_html/Server/updateluotthich.php on line 4
+
