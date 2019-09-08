@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imageviewwbaihathot"
+        android:scaleType="fitXY"
+        android:layout_margin="3dp"
+
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+    <TextView
+        android:text="Song name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textColor="#03A9F4"
+        android:textSize="18sp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_toRightOf="@id/imageviewwbaihathot"
+        android:layout_marginTop="7dp"
+        android:id="@+id/textviewtenbaihathot"/>
+    <TextView
+        android:text="Singer"
+        android:textColor="#259988"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_toRightOf="@id/imageviewwbaihathot"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/textviewtenbaihathot"
+        android:id="@+id/textviewcasibaihathot"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/iconlove"
+        android:id="@+id/imageviewluotthich"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"/>
+
+
+
+
+
+
+
+</RelativeLayout>
